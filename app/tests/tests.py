@@ -6,6 +6,7 @@ from src import scrapper
 
 
 class TestScrapper:
+    """Tests for Scrapper."""
     url = 'https://api.sampleapis.com/playstation/games'
     scrapper = scrapper.Scrapper()
 
